@@ -1,0 +1,31 @@
+
+@media (max-width:768px){
+    * {
+        font-size:6px;
+    }
+
+    /* hero-section */
+    #hero-sec {
+        max-width: 620px;
+        margin: 0 auto;
+    }
+
+    .hero-container {
+        flex-direction: column;
+    }
+
+    .hero-title-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    
+    .cta-button {
+        width: 40rem;
+    }
+
+    
+
+
+}
