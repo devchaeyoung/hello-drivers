@@ -1,31 +1,45 @@
+/* iOS에서만 background-attachment 제거 */
+@supports (-webkit-touch-callout: none) {
+    #info-sec {
+        background-attachment: scroll !important;
+    }
+}
 
-@media (max-width:768px){
+@media(max-width:275px){
+
+.hero-title-wrapper h1{
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.hero-title-wrapper h3{
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+.hero-content-text {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+}
+@media (max-width:630px){
     * {
         font-size:6px;
     }
 
-    /* hero-section */
-    #hero-sec {
-        max-width: 620px;
-        margin: 0 auto;
-    }
 
-    .hero-container {
+
+    .benefits-cards-wrapper {
+        width:100%;
         flex-direction: column;
     }
 
-    .hero-title-wrapper {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-    }
-    
-    .cta-button {
-        width: 40rem;
+    .benefit-card {
+        width: 80%;
     }
 
-    
+
+
 
 
 }
