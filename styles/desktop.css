@@ -254,7 +254,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:30px;
+    gap:48px;
     margin-top: 54px;
 
     
@@ -270,6 +270,10 @@ section {
     display: flex;
     flex-direction: column;
     gap:20px
+}
+
+.info-contents-text p{
+    font-weight: normal;
 }
 
 .info-contents-text strong {
@@ -412,6 +416,7 @@ section {
 .prime-cards-wrpper {
     max-width:var(--max--width);
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap:2rem;
@@ -419,18 +424,20 @@ section {
 
 .prime-card {
     width:calc(80vw/3);
-    height: 180px;
+    height: 12rem;
     padding: 2rem;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 15px;
     backdrop-filter: blur(10px);
     transition: transform 0.3s;
 }
-
+.prime-card p {
+    margin-bottom: 12px;
+    font-size: 1.4rem;;
+}
 .prime-cards-wrpper h3 {
     margin-bottom: 1rem;
     font-size: var(--text--size);
@@ -444,7 +451,7 @@ section {
 
 .prime-cards-wrpper li {
     margin-top: 0.5rem;
-    font-size: var(--text--size);
+    font-size: 1.3rem;
     opacity: 0.9;
 
 }
