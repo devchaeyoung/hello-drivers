@@ -95,6 +95,9 @@
         width: 80vw;
         height: calc(80vw*0.6);
     }
+    .gallery p {
+        width: 80vw;
+    }
 
 
     /*cta section*/
@@ -115,6 +118,7 @@
     }
 
     .cta-text-wrapper p {
+        width: 80vw;    
         font-size: 1.6rem;
     }
     .cta-text-wrapper strong {

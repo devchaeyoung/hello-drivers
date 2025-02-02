@@ -37,9 +37,9 @@ p,strong {
 
 /* header */
 header {
-    width: 100%;
+    width: 100vw;
     position: fixed;
-    padding:0.8rem 1.6rem;
+    padding: 0.8rem 1.6rem;
     box-sizing: border-box;
     display: flex;
     align-items: center;
@@ -87,7 +87,10 @@ section {
 
 
 .hero h2 {
+    text-align: center;
+    word-break: keep-all;
     font-weight: 600;
+    opacity: 0.9;
 }
 
 .backdrop{
@@ -105,6 +108,7 @@ section {
 
 .hero-title-wrapper {
     height: 100%;
+    margin: 0 2rem;
     position: relative;
 
     display: flex;
@@ -125,7 +129,11 @@ section {
 .hero-title-wrapper h3{
     font-size: 2.4rem;
     font-weight: 400;
+    text-align: center;
+    word-break: keep-all;
+    opacity: 0.8;
 }
+
 
 .cta-button {
     width:26rem;
@@ -161,6 +169,10 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.benefits-title-wrapper strong {
+    color: var(--primary);
 }
 
 .sec-title-wrapper h2 {
@@ -309,6 +321,7 @@ section {
     color: var(--primary);
 }
 
+
 .gallery-photos-wrapper {
     display: flex;
     gap:2rem;
@@ -351,7 +364,6 @@ section {
     width:38rem;
     display: flex;
     flex-direction: column;
-
     gap:1.6rem;
 }
 
