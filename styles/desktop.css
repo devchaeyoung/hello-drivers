@@ -188,7 +188,7 @@ section {
     background-color: var(--primary);
 }
 
-.benefits-title-wrpper {
+.benefits-title-wrapper {
     width:22rem;
     display: flex;
     flex-direction: column;
@@ -242,7 +242,7 @@ section {
     align-items: center;
 }
 
-.info-title-wrppaer {
+.info-title-wrapper {
     width: 22rem;
     display: flex;
     flex-direction: column;
@@ -370,6 +370,7 @@ section {
 
 /* prime section*/
 #prime {
+    width:100vw;
     height:auto;
 
     position: relative;
@@ -385,11 +386,9 @@ section {
 .prime {
     padding:6.2rem 0;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap:2.8rem;
+
+    position: relative;
+    z-index: 2;
 }
 
 .prime-title-wrapper {
@@ -401,7 +400,8 @@ section {
     gap:2.2rem;
 }
 
-.prime-text-wrppaer {
+.prime-text-wrapper {
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -409,62 +409,61 @@ section {
     gap: 1.8rem;
 }
 
-.prime-text-wrppaer p {
+.prime-text-wrapper p {
     color: var(--nav--color);
 }
 
-.prime-cards-wrpper {
-    max-width:var(--max--width);
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap:2rem;
+.prime-cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18.7rem, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
 }
 
 .prime-card {
-    width:calc(80vw/3);
-    height: 12rem;
     padding: 2rem;
-
     display: flex;
     flex-direction: column;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 15px;
     backdrop-filter: blur(10px);
     transition: transform 0.3s;
+    overflow: hidden;
 }
 .prime-card p {
     margin-bottom: 12px;
     font-size: 1.4rem;;
 }
-.prime-cards-wrpper h3 {
+.prime-cards-wrapper h3 {
     margin-bottom: 1rem;
     font-size: var(--text--size);
     color: var(--primary);
     opacity: 0.9;
 }
 
-.prime-cards-wrpper i {
+.prime-cards-wrapper i {
     font-size: var(--text--size);
 }
 
-.prime-cards-wrpper li {
+.prime-cards-wrapper li {
     margin-top: 0.5rem;
     font-size: 1.3rem;
     opacity: 0.9;
 
 }
 
-.prime-text-wrppaer {
+.prime-text-wrapper {
     z-index: 2;
 }
 
-.prime-cards-wrpper {
+.prime-cards-wrapper {
     z-index: 2;
 }
 
 .prime-text {
+    margin-top: 1.6rem;
+    text-align: center;
+
     font-style: italic;
     color: var(--primary);
     z-index: 2;

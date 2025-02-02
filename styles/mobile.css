@@ -25,7 +25,7 @@
 
 @media (max-width:630px){
     * {
-        font-size:8px;
+        font-size:10px;
     }
 
 
@@ -36,13 +36,21 @@
     }
 
     .benefit-card {
-        width: 80%;
+        width: 80vw;
     }
+
+    /* info section */
+
+    .info-img {
+        width:64vw;
+    }
+    
 
     .info-contents {
         flex-direction: column;
     }
     .info-contents-text{
+        width:80vw;
         text-align: center;
         word-break: keep-all;
     }
@@ -51,12 +59,19 @@
         flex-direction: column;
     }
 
+    /* gallery section */
     .gallery {
         max-width: 24rem;
         text-align: center;
         word-break: keep-all;
     }
+    .gallery-photos-wrapper img {
+        width: 80vw;
+        height: calc(80vw*0.6);
+    }
 
+
+    /*cta section*/
     .cta {
         flex-direction: column;
     }
@@ -69,29 +84,40 @@
         align-items: center;
     }
 
+    .cta-text-wrapper h2 {
+        font-size: 1.8rem;
+    }
+
+    .cta-text-wrapper p {
+        font-size: 1.6rem;
+    }
+    .cta-text-wrapper strong {
+        font-size: 1.6rem;
+    }
 
 
-    .prime-cards-wrpper {
+
+    /*prime section*/
+    .prime {
+        padding: 3rem;
+        margin: auto;
+    }
+    .prime-cards-wrapper {
         word-break: keep-all;
         text-align: center;
     }
 
-    .prime-text-wrppaer {
-        width: 26rem;
+    .prime-text-wrapper {
+
         word-break: keep-all;
         text-align: center;
 
-    }
-
-    .prime-card {
-        width: 24rem;
     }
 
     .prime-card p {
         margin-bottom: 1rem;
     }
     .prime-text {
-        width:23rem;
         word-break: keep-all;
         text-align: center;
     }
