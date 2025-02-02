@@ -1,6 +1,6 @@
 /* iOS에서만 background-attachment 제거 */
 @supports (-webkit-touch-callout: none) {
-    #info {
+    #hero {
         background-attachment: scroll !important;
     }
 
