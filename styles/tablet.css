@@ -1,12 +1,18 @@
-@media (max-width:920px){
+@media (max-width:980px){
     * {
         font-size:8px;
     }
 
-    /*hero-section*/
-   
+    .prime-cards-wrpper {
+        flex-direction: column;
+    }
 
-     /*info-section*/
+    .prime-card {
+        height: auto;
+    }
 
- 
+    .footer-content {
+        flex-direction: column;
+    }
+
 }
