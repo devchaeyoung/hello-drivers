@@ -1,6 +1,10 @@
 /* iOS에서만 background-attachment 제거 */
 @supports (-webkit-touch-callout: none) {
-    #info-sec {
+    #info {
+        background-attachment: scroll !important;
+    }
+
+    #prime {
         background-attachment: scroll !important;
     }
 }
