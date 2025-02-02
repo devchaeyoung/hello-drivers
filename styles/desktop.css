@@ -394,6 +394,8 @@ section {
     background-position: center;
 
     background-image: url("../asset/prime-img.jpg");
+
+    overflow-y: hidden;
 }
 
 .prime {
@@ -405,7 +407,6 @@ section {
 }
 
 .prime-title-wrapper {
-    width: 16rem;
     display: flex;
     flex-direction: column;
     align-items: center;

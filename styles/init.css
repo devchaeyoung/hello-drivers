@@ -1,38 +1,28 @@
 * {
-    font-size: 16px;
     margin: 0;
-    padding:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
-
-@font-face {
-    font-family: 'Pretendard-Regular';
-    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
-
-html{
+html {
     height: 100%;
     background-color: #000;
-    color:#fff;
+    color: #fff;
     overflow-x: hidden;
-
-    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 body {
     margin: 0;
-    padding:0;
+    padding: 0;
     height: 100%;
 }
 
-a{
+a {
     text-decoration: none;
-    color: #000
+    color: #000;
 }
-
 
 nav, li, ol {
     list-style: none;
